@@ -1,0 +1,27 @@
+@font-face {
+    font-family: Lato;
+    src: url(./fonts/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(./fonts/Lato-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: Lato;
+    src: url(./fonts/Lato-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Merriweather;
+    src: url(./fonts/Merriweather-Regular.ttf);
+}
+
+@font-face {
+    font-family: Merriweather;
+    src: url(./fonts/Merriweather-Bold.ttf);
+    font-weight: 700;
+}

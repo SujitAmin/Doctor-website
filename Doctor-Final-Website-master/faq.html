@@ -1,0 +1,235 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+        <!--inline editing-->
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/knockout/2.2.1/knockout-min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/json2/20121008/json2.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/scripts/shCore.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/scripts/shBrushXml.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/SyntaxHighlighter/3.0.83/scripts/shBrushJScript.min.js"></script>
+<link href="css/animate.css" rel="stylesheet">
+
+<link rel=stylesheet href="http://jinplace.org/css/shCore.css">
+<link rel=stylesheet href="http://jinplace.org/css/shCoreDefault.css">
+
+<!-- These are the required files. Need nQuery 1.7+ -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="js/jinplace.js"></script>
+<script src="js/x.js"></script>
+
+        <!-- Place favicon.ico in the root directory -->
+        <script src="js/plugins.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/tether.min.js"></script>
+        <script src="js/drop.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/col.css">
+        <link rel="stylesheet" href="css/3cols.css">
+        <link rel="stylesheet" href="css/4cols.css">
+        <link rel="stylesheet" href="css/drop-theme-basic.min.css">
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/owl.theme.default.min.css">
+        <link rel="stylesheet" href="css/fonts.css">
+        <link rel="stylesheet" href="css/main.css">
+        <style>
+            #map {
+              height: 320px;
+              width: 100%;
+             }
+        </style>
+
+    </head>
+    <body>
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+        <nav >
+            <li class="logo demo">Dr. Sudha's Homeopathy</li>
+            <a class="bars drop-target" onclick="showMenu();">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </a>
+            <ul class="mobile-nav">
+                <li class="nav-link"><a href="/">Home</a></li>
+                <li class="nav-link"><a href="/#about">About</a></li>
+                <li class="nav-link"><a href="/#services">Services</a></li>
+                <li class="nav-link"><a href="/#testimonials">Testimonials</a></li>
+                <li class="nav-link"><a href="cases.html">Cured Cases</a></li>
+                <li class="nav-link"><a href="#" class="active">FAQ</a></li>
+                <li class="nav-link"><a href="/#contact">Contact</a></li>
+            </ul>
+            <ul class="big-nav">
+                <li class="nav-link"><a href="/doctor-final-master"class=" demo">Home</a></li>
+                <li class="nav-link"><a href="/doctor-final-master/#about"class=" demo">About</a></li>
+                <li class="nav-link"><a href="/doctor-final-master/#services"class=" demo">Services</a></li>
+                <li class="nav-link"><a href="/doctor-final-master/#testimonials"class=" demo">Testimonials</a></li>
+                <li class="nav-link"><a href="cases.html"class=" demo">Cured Cases</a></li>
+                <li class="nav-link"><a href="#" class="active demo">FAQ</a></li>
+                <li class="nav-link"><a href="/doctor-final-master/#contact"class=" demo">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="container">
+            <div class="section group card faq" style="margin-top: 172px;">
+                <div class="col span_3_of_3">
+                    <h4><span class=" txt demo1">Can animals be treated with Homoeopathy?</span></h4>
+                  <p><span class="txt1 demo1">Homoeopathy is as effective for animals as it is for humans.</p></span>
+                </div>
+
+            </div>
+            <div class="section group card faq">
+                <div class="col span_3_of_3">
+                    <h4><span class="txt2 demo1">Are homoeopathic medicines safe for children?</span></h4>
+                    <p><span class="txt3 demo1">Yes, They can be given safely to even to the youngest infant.</p></span>
+                </div>
+            </div>
+            <div class="section group card faq">
+                <div class="col span_3_of_3">
+                    <h4><span class="txt4 demo1">Can the medicines be taken safely during pregnancy?</span></h4>
+                    <p><span class="txt5 demo1">The safety of homoeopathic medicines is well known, still it is advised to take the opinion of a qualified Homoeopathic doctor in such situation.</p>
+                </span></div>
+            </div>
+            <div class="section group card faq">
+                <div class="col span_3_of_3">
+                    <h4><span class="txt6 demo1">If the symptom become worse when first taking a homoeopathic medicine is it all right or does this indicate the wrong choice of medicine?</span></h4>
+                    <p><span class="txt7 demo1">Homoeopathic medicines seek to stimulate symptoms, not suppress them, so that the body will overcome the disease naturally. Therefore, if symptoms are aggravated briefly, this usually means that the medicine is acting. (Always consult your physician when the symptom becomes worse).</p>
+                </span></div>
+            </div>
+            <div class="section group card faq">
+                <div class="col span_3_of_3">
+                    <h4><span class="txt8 demo1">Can homoeopathic medicine be taken with ordinary drugs?</span></h4>
+                    <p><span class="txt9 demo1">Always follow your doctors advice as stopping some medicine may be harmful and taking some other medicines may also be detrimental.</p>
+                </span></div>
+            </div>
+            <div class="section group card faq">
+                <div class="col span_3_of_3">
+                    <h4><span class="txt10 demo1">What is regulatory mechanism for Homoeopathic medical education and practice?</span></h4>
+                    <p><span class="txt11 demo1">The Central Council of Homoeopathy is a body corporate established under the provisions of Homoeopathy Central Council Act, 1973 to maintain Central Register of Homoeopathy and matters connected therewith. This Council is responsible for maintaining the minimum standards of education in Homoeopathy. </p>
+                </span></div>
+            </div>
+            <div class="section group card faq">
+                <div class="col span_3_of_3">
+                    <h4><span class="txt12 demo1">Are there any dietic restrictions while taking these medicines?</span></h4>
+                    <p><span class="txt13 demo1">It is myth regarding restriction in diet like onion, garlic, perfume, paan and tobacco. These medicines have been used on patients who are habituated to coffee and betel. IT ALWAYS ACTS. But with certain medicines when given, such restrictions are must. Otherwise the action may be nullified. Asking not to use paan , or cigarette are on the other hand are safe and healthy restrictions.</p>
+                </span></div>
+            </div>
+            <div class="section group card faq">
+                <div class="col span_3_of_3">
+                    <h4><span class="txt14 demo1">Does Homoeopathy first aggravates the disease and then improves?</span></h4>
+                    <p><span class="txt15 demo1">It does not happen to all cases and always.</p>
+                </span></div>
+            </div>
+            <div class="section group card faq">
+                <div class="col span_3_of_3">
+                    <h4><span class="txt16 demo1">What is Homoeopathy?</span></h4>
+                    <p><span class="txt17 demo1">Homoeopathy is one of the scientific systems of medicine based on the Principle Similia Similibus Curentur which means, let likes be treated by likes. Dr. Samuel Hahnemann, a German Physician enunciated this Principle. It is proved that the medicine which can cause a set of symptoms on healthy human beings can cure the same symptoms in diseased patients.</p>
+                </span></div>
+            </div>
+            <div class="section group card faq">
+                <div class="col span_3_of_3">
+                    <h4><span class="txt18 demo1">How do Homoeopathic medicines work?</span></h4>
+                    <p><span class="txt19 demo1">The Homoeopathic medicines are dynamised by way of diluting and successing crude drug substance to activate its inherent properties. By this way the original drug substance is reduced to extremely to low quantity. These medicines act on the immune system of the individuals and thereby strengthen it so as to enable the body to fight illness.</p>
+                </span></div>
+            </div>
+        </div>
+        <script>
+  $('.editable').jinplace();
+</script>
+<footer id="contact">
+    <div class="container foot-container">
+        <div class="section group">
+            <div class="col span_2_of_3 foot-section">
+                <div class="wow zoomIn" style="border-radius:35px 35px;border-style:solid;"id="map"></div>
+            </div>
+            <div class="col span_1_of_3">
+                <h4>Indian Homeo</h4>
+                <p>53/1/3, Hazra Road, Kolkata-19</p>
+                <p>Appointments: +91 9836564515</p>
+                <p>Mobile: +91 9836564515</p>
+            </div>
+        </div>
+    </div>
+    <div class="section group">
+        <div class="col span_3_of_3" style="text-align: center;">
+            <a href="#" class="foot-link">Privacy Policy</a>|<a href="#" class="foot-link">Sitemap</a>
+        |<a href="#" class="foot-link">&copy; 2017-18 Dylan, Jariel &amp; Sujith</a></div>
+    </div>
+</footer>
+        <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script>
+          function initMap() {
+            var uluru = {lat: 22.52652, lng: 88.3619453};
+            var map = new google.maps.Map(document.getElementById('map'), {
+              zoom: 8,
+              center: uluru
+            });
+            var marker = new google.maps.Marker({
+              position: uluru,
+              map: map
+            });
+          }
+        </script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAr41UEjsQugXQ6UpjsG8MlsFwiqEYLer8&callback=initMap">
+        </script>
+                <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/tether.min.js"></script>
+        <script src="js/drop.min.js"></script>
+        <script src="js/main.js"></script>
+        <script>
+            new WOW().init();
+        </script>
+        <script src="js/main.js"></script>
+        <script src="js/jquery.lettering.js"></script>
+        <script src="js/jquery.textillate.js"></script>
+
+        <script>
+        $(function () {
+	        $('.tlt').textillate({in:{delay: 5,shuffle: false}});
+                    })
+        $(function () {
+            $('.demo').textillate({
+                in: {
+                    effect: 'rollIn',
+                    delayScale: 1.5,
+                    // set the delay between each character
+                    delay: 1,
+                    shuffle: true,
+                }
+            });
+            $('.demo1').textillate({
+                in: {
+                    effect: 'fadeIn',
+                  delay:0,
+
+                }
+            });
+
+        })
+        </script>
+
+
+
+
+
+        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+        <script>
+            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+            ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+        </script>
+        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+    </body>
+</html>
